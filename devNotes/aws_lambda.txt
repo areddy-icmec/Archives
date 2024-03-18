@@ -1,0 +1,12 @@
+
+export AWS_PROFILE=devdataproduct
+
+
+
+zip -r paramiko.zip  ./*
+
+#layer
+aws lambda publish-layer-version --layer-name paramiko --description "layer for sftp" --compatible-runtimes python3.10 --zip-file fileb://paramiko.zip
+
+#send a zip to AWS lambda
+aws lambda update-function-code --function-name merge-geoip-crc-lambda --zip-file fileb://Archive.zip

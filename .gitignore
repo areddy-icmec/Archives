@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+
+
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+
+#others 
+.DS_Store
+project_census_crime/data
+project_census_crime/archives
+Project_census_crime(local)/CrimeProcessing/data
+ProjectCastle/env
+ProjectCastle/data
+project_castle/pcastle
+internal_weekly/conf
+
+

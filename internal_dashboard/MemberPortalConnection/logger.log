@@ -1,0 +1,208 @@
+INFO 2023-01-27 15:50:24,948 - Programm run
+DEBUG 2023-01-27 15:50:25,034 - starting thread (client mode): 0x226008e0
+DEBUG 2023-01-27 15:50:25,034 - Local version/idstring: SSH-2.0-paramiko_3.0.0
+DEBUG 2023-01-27 15:50:25,055 - Remote version/idstring: SSH-2.0-Go
+INFO 2023-01-27 15:50:25,055 - Connected (version 2.0, client Go)
+DEBUG 2023-01-27 15:50:25,055 - === Key exchange possibilities ===
+DEBUG 2023-01-27 15:50:25,055 - kex algos: curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521
+DEBUG 2023-01-27 15:50:25,055 - server key: rsa-sha2-256, rsa-sha2-512, ssh-rsa
+DEBUG 2023-01-27 15:50:25,055 - client encrypt: aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com
+DEBUG 2023-01-27 15:50:25,055 - server encrypt: aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com
+DEBUG 2023-01-27 15:50:25,055 - client mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-256
+DEBUG 2023-01-27 15:50:25,055 - server mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-256
+DEBUG 2023-01-27 15:50:25,055 - client compress: none
+DEBUG 2023-01-27 15:50:25,055 - server compress: none
+DEBUG 2023-01-27 15:50:25,055 - client lang: <none>
+DEBUG 2023-01-27 15:50:25,055 - server lang: <none>
+DEBUG 2023-01-27 15:50:25,055 - kex follows: False
+DEBUG 2023-01-27 15:50:25,055 - === Key exchange agreements ===
+DEBUG 2023-01-27 15:50:25,055 - Kex: curve25519-sha256@libssh.org
+DEBUG 2023-01-27 15:50:25,056 - HostKey: rsa-sha2-512
+DEBUG 2023-01-27 15:50:25,056 - Cipher: aes128-ctr
+DEBUG 2023-01-27 15:50:25,056 - MAC: hmac-sha2-256
+DEBUG 2023-01-27 15:50:25,056 - Compression: none
+DEBUG 2023-01-27 15:50:25,056 - === End of kex handshake ===
+DEBUG 2023-01-27 15:50:25,122 - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG 2023-01-27 15:50:25,122 - Switch to new keys ...
+DEBUG 2023-01-27 15:50:25,122 - Attempting public-key auth...
+DEBUG 2023-01-27 15:50:25,163 - userauth is OK
+INFO 2023-01-27 15:50:25,439 - Authentication (publickey) successful!
+DEBUG 2023-01-27 15:50:25,440 - [chan 0] Max packet in: 32768 bytes
+DEBUG 2023-01-27 15:50:25,460 - [chan 0] Max packet out: 32768 bytes
+DEBUG 2023-01-27 15:50:25,461 - Secsh channel 0 opened.
+DEBUG 2023-01-27 15:50:30,528 - Sending global request "keepalive@lag.net"
+INFO 2023-01-27 15:50:35,544 - Successfully extracted information
+INFO 2023-01-31 14:25:04,147 - Programm run
+INFO 2023-01-31 14:25:05,028 - Connected (version 2.0, client Go)
+INFO 2023-01-31 14:25:05,744 - Authentication (publickey) successful!
+INFO 2023-01-31 14:25:15,897 - Successfully extracted information
+INFO 2023-01-31 14:27:42,057 - Programm run
+INFO 2023-01-31 14:27:42,120 - Connected (version 2.0, client Go)
+INFO 2023-01-31 14:27:42,538 - Authentication (publickey) successful!
+INFO 2023-01-31 14:27:52,634 - Successfully extracted information
+INFO 2023-01-31 14:34:16,395 - Programm run
+INFO 2023-01-31 14:34:16,518 - Connected (version 2.0, client Go)
+INFO 2023-01-31 14:34:17,659 - Authentication (publickey) successful!
+INFO 2023-01-31 14:34:27,776 - Successfully extracted information
+INFO 2023-01-31 16:48:40,084 - Programm run
+INFO 2023-01-31 17:17:26,272 - Programm run
+INFO 2023-01-31 17:17:56,217 - Programm run
+INFO 2023-01-31 17:18:35,760 - Programm run
+INFO 2023-01-31 17:18:58,032 - Programm run
+INFO 2023-01-31 17:19:16,613 - Programm run
+INFO 2023-01-31 17:19:16,881 - Connected (version 2.0, client Go)
+INFO 2023-01-31 17:19:17,927 - Authentication (publickey) successful!
+INFO 2023-01-31 17:19:28,030 - Successfully extracted information
+INFO 2023-01-31 17:22:01,451 - Programm run
+INFO 2023-01-31 17:22:01,527 - Connected (version 2.0, client Go)
+INFO 2023-01-31 17:22:01,925 - Authentication (publickey) successful!
+INFO 2023-01-31 17:22:12,030 - Successfully extracted information
+INFO 2023-01-31 17:27:29,566 - Programm run
+INFO 2023-01-31 17:27:29,641 - Connected (version 2.0, client Go)
+INFO 2023-01-31 17:27:30,705 - Authentication (publickey) successful!
+INFO 2023-01-31 17:27:40,831 - Successfully extracted information
+INFO 2023-01-31 17:53:18,553 - Programm run
+INFO 2023-01-31 17:53:19,402 - Connected (version 2.0, client Go)
+INFO 2023-01-31 17:53:20,042 - Authentication (publickey) successful!
+INFO 2023-01-31 17:53:30,166 - Successfully extracted information
+INFO 2023-01-31 17:54:08,112 - Programm run
+INFO 2023-01-31 17:54:08,184 - Connected (version 2.0, client Go)
+INFO 2023-01-31 17:54:09,186 - Authentication (publickey) successful!
+INFO 2023-01-31 17:54:19,350 - Successfully extracted information
+INFO 2023-02-01 14:57:42,189 - Programm run
+INFO 2023-02-01 14:57:42,742 - Connected (version 2.0, client Go)
+INFO 2023-02-01 14:57:43,390 - Authentication (publickey) successful!
+INFO 2023-02-01 14:57:53,538 - Successfully extracted information
+INFO 2023-02-01 14:58:34,528 - Programm run
+INFO 2023-02-01 14:58:34,577 - Connected (version 2.0, client Go)
+INFO 2023-02-01 14:58:35,683 - Authentication (publickey) successful!
+INFO 2023-02-01 14:58:45,789 - Successfully extracted information
+INFO 2023-02-01 14:58:57,488 - Programm run
+INFO 2023-02-01 14:58:57,538 - Connected (version 2.0, client Go)
+INFO 2023-02-01 14:58:58,213 - Authentication (publickey) successful!
+INFO 2023-02-01 14:59:08,435 - tuple index out of range
+INFO 2023-02-01 15:01:23,420 - Programm run
+INFO 2023-02-01 15:01:23,879 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:01:24,296 - Authentication (publickey) successful!
+INFO 2023-02-01 15:01:34,419 - Successfully extracted information
+INFO 2023-02-01 15:01:41,526 - Programm run
+INFO 2023-02-01 15:01:41,580 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:01:42,055 - Authentication (publickey) successful!
+INFO 2023-02-01 15:01:52,189 - Successfully extracted information
+INFO 2023-02-01 15:08:10,096 - Programm run
+INFO 2023-02-01 15:08:10,741 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:08:11,576 - Authentication (publickey) successful!
+INFO 2023-02-01 15:08:21,766 - Successfully extracted information
+INFO 2023-02-01 15:33:06,927 - Programm run
+INFO 2023-02-01 15:33:07,599 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:33:08,323 - Authentication (publickey) successful!
+INFO 2023-02-01 15:33:18,730 - Successfully extracted information
+INFO 2023-02-01 15:36:52,542 - Programm run
+INFO 2023-02-01 15:36:52,744 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:36:53,196 - Authentication (publickey) successful!
+INFO 2023-02-01 15:37:03,533 - Successfully extracted information
+INFO 2023-02-01 15:39:53,765 - Programm run
+INFO 2023-02-01 15:39:54,292 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:39:55,019 - Authentication (publickey) successful!
+INFO 2023-02-01 15:40:05,410 - Successfully extracted information
+INFO 2023-02-01 15:45:02,704 - Programm run
+INFO 2023-02-01 15:45:03,024 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:45:03,775 - Authentication (publickey) successful!
+INFO 2023-02-01 15:45:14,104 - Successfully extracted information
+INFO 2023-02-01 15:45:21,190 - Programm run
+INFO 2023-02-01 15:45:21,249 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:45:21,799 - Authentication (publickey) successful!
+INFO 2023-02-01 15:45:32,280 - Successfully extracted information
+INFO 2023-02-01 15:45:52,391 - Programm run
+INFO 2023-02-01 15:45:52,459 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:45:52,918 - Authentication (publickey) successful!
+INFO 2023-02-01 15:46:03,307 - Successfully extracted information
+INFO 2023-02-01 15:48:04,936 - Programm run
+INFO 2023-02-01 15:48:05,394 - Connected (version 2.0, client Go)
+INFO 2023-02-01 15:48:05,967 - Authentication (publickey) successful!
+INFO 2023-02-01 15:48:16,438 - Successfully extracted information
+INFO 2023-02-02 10:06:25,919 - Connected (version 2.0, client Go)
+INFO 2023-02-02 10:06:26,592 - Authentication (publickey) successful!
+INFO 2023-02-02 10:06:36,925 - Successfully extracted information
+INFO 2023-02-02 11:55:12,487 - Connected (version 2.0, client Go)
+INFO 2023-02-02 11:55:13,135 - Authentication (publickey) successful!
+INFO 2023-02-02 11:55:23,385 - Successfully extracted information
+INFO 2023-02-03 12:57:06,852 - Connected (version 2.0, client Go)
+INFO 2023-02-03 12:57:07,520 - Authentication (publickey) successful!
+INFO 2023-02-03 12:57:17,891 - Successfully extracted information
+INFO 2023-02-06 10:38:49,848 - Connected (version 2.0, client Go)
+INFO 2023-02-06 10:38:50,894 - Authentication (publickey) successful!
+INFO 2023-02-06 10:39:01,276 - Successfully extracted information
+INFO 2023-02-06 17:05:51,402 - Connected (version 2.0, client Go)
+INFO 2023-02-06 17:05:52,106 - Authentication (publickey) successful!
+
+INFO 2023-02-08 15:15:45,133 - Connected (version 2.0, client Go)
+INFO 2023-02-08 15:15:45,726 - Authentication (publickey) successful!
+WARNING 2023-02-08 15:15:55,757 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:89: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+ERROR 2023-02-08 15:15:55,831 - name 'display' is not defined
+INFO 2023-02-08 15:16:09,672 - Connected (version 2.0, client Go)
+INFO 2023-02-08 15:16:10,002 - Authentication (publickey) successful!
+WARNING 2023-02-08 15:16:20,077 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:89: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+ERROR 2023-02-08 15:16:20,108 - local variable 'eventsDf' referenced before assignment
+INFO 2023-02-08 15:16:40,815 - Connected (version 2.0, client Go)
+INFO 2023-02-08 15:16:41,156 - Authentication (publickey) successful!
+WARNING 2023-02-08 15:16:51,197 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:89: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+INFO 2023-02-08 15:16:51,213 - Successfully extracted information
+INFO 2023-02-09 09:21:25,081 - Connected (version 2.0, client Go)
+INFO 2023-02-09 09:21:25,874 - Authentication (publickey) successful!
+INFO 2023-02-09 09:28:54,910 - Connected (version 2.0, client Go)
+INFO 2023-02-09 09:28:55,855 - Authentication (publickey) successful!
+WARNING 2023-02-09 09:29:05,989 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:89: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+INFO 2023-02-09 09:29:06,039 - Successfully extracted information
+INFO 2023-02-09 09:35:00,310 - Connected (version 2.0, client Go)
+INFO 2023-02-09 09:35:01,125 - Authentication (publickey) successful!
+WARNING 2023-02-09 09:35:11,341 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:89: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+INFO 2023-02-09 09:35:11,383 - Successfully extracted information
+INFO 2023-02-09 09:41:38,637 - Connected (version 2.0, client Go)
+INFO 2023-02-09 09:41:39,372 - Authentication (publickey) successful!
+WARNING 2023-02-09 09:41:49,497 - /var/folders/wh/mbw6pdx52ps1ky1bbmn8tgqr0000gn/T/ipykernel_4525/912976577.py:48: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+INFO 2023-02-09 09:43:48,947 - Connected (version 2.0, client Go)
+INFO 2023-02-09 09:43:49,439 - Authentication (publickey) successful!
+WARNING 2023-02-09 09:43:59,635 - /var/folders/wh/mbw6pdx52ps1ky1bbmn8tgqr0000gn/T/ipykernel_4525/912976577.py:48: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+INFO 2023-02-09 09:44:59,368 - Connected (version 2.0, client Go)
+INFO 2023-02-09 09:44:59,864 - Authentication (publickey) successful!
+WARNING 2023-02-09 09:45:10,086 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:47: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  membersDf =  pd.read_sql_query(query, con)
+
+WARNING 2023-02-09 09:45:10,148 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:54: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  messagesDf =  pd.read_sql_query(query, con)
+
+WARNING 2023-02-09 09:45:10,196 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:61: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  invitationsDf =  pd.read_sql_query(query, con)
+
+WARNING 2023-02-09 09:45:10,234 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:68: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  connectionsDf =  pd.read_sql_query(query, con)
+
+WARNING 2023-02-09 09:45:10,289 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:75: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  postsDf =  pd.read_sql_query(query, con)
+
+WARNING 2023-02-09 09:45:10,344 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:82: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  eventsDf =  pd.read_sql_query(query, con)
+
+WARNING 2023-02-09 09:45:10,396 - /Users/icmec/Documents/internal_dashboard/MemberPortalConnection/memConnection.py:89: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  UpdatersDf =  pd.read_sql_query(query, con)
+
+INFO 2023-02-09 09:45:10,432 - Successfully extracted information
+INFO 2023-03-22 11:45:17,807 - Connected (version 2.0, client Go)
+INFO 2023-03-22 11:45:18,442 - Authentication (publickey) successful!
+INFO 2023-03-22 11:50:00,424 - Connected (version 2.0, client Go)
+INFO 2023-03-22 11:50:00,867 - Authentication (publickey) successful!
